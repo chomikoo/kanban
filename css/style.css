@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext');
+
+* {
+	box-sizing: border-box;
+	background-color: #b4e9fd;
+	/*border: 1px solid #fff;*/
+}
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+/*	background-color: #090909;*/
+}
+.board {
+	padding: 35px;
+	/*background-color: #090909;*/
+}
+.board h1 {
+ 	text-align: center;
+}
+.button {
+	width: 30%;
+	margin: 0 auto;
+}
+button {
+	width: 100%;
+	line-height: 25px;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+}
+.board .create-column {
+	text-align: center;
+}
+.create-column {
+	padding: 5px 20px;
+	font-size: 1.5rem;
+	margin-bottom: 25px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: transparent;
+}
+.create-column:hover {
+	background-color: #eaeaea;
+
+}
+.btn-delete {
+	border: none;
+	float: right;
+	width: 25px;
+	height: 25px;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 0;
+	color: #fff;
+	background-color: #3b88d0;
+	overflow: hidden;
+	position: relative;
+	top: -49px;
+	left: -10px;
+}
+.btn-delete:hover {
+	color: #fff;
+	background-color: #660000;
+}
+.card .btn-delete {
+	position: relative;
+	top: 23px;
+	left: -28px;
+}
+.btn-add {
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+}
+.btn-add:hover {
+	background-color: #eaeaea;
+}
+
+.column-container {
+	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.column {
+	flex: 1;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	min-width: 250px;
+	background-color: #a4cfff;
+
+}
+.column-title{
+	display: block;
+	text-align: center;
+	background-color: transparent;
+}
+.column-card-list, ul{
+	min-height: 200px;
+	margin: 0;
+	padding: 0;
+	background-color: #ccd9ff;
+}
+.card {
+	list-style-type: none;
+	cursor: pointer;
+	background-color: #75a8ce;
+}
+
+.card-description{
+	padding: 20px;
+	background-color: ;
+	font-size: 1rem;
+	word-wrap: break-word;
+
+}
